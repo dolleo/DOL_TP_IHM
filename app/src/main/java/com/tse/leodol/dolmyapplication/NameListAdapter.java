@@ -10,11 +10,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NameListAdapter extends RecyclerView.Adapter<NameViewHolder> {
-    private List<String > nameList;
 
-    public NameListAdapter(){
+    private List<String> nameList = DataManager.getInstance().getNameList();
+
+
+    /*public NameListAdapter(){
         this.nameList = new ArrayList<>();
-    }
+    }*/
 
     @NonNull
     @Override

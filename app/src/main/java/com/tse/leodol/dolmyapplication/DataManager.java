@@ -35,7 +35,7 @@ public class DataManager {
         this.nameList = nameList;
     }
 
-    public void addItem() {
-
+    public void addItem(String texte) {
+        this.nameList.add(texte);
     }
 }
