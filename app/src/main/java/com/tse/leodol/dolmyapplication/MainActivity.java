@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         nameListAdapter = new NameListAdapter();
 
-        //textViewName = findViewById(R.id.activity_main_textview_name)
+        //textViewName = findViewById(R.id.activity_main_textview_name);
+
+        initViews();
     }
 
     // On en a plus besoin depuis qu'on passe par un singleton pour sauvegarder les choses qu'on veut passer d'une page à une autre

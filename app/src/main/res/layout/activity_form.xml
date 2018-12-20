@@ -10,20 +10,20 @@
         android:id="@+id/activity_form_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="148dp"
-        android:layout_marginRight="148dp"
-        android:layout_marginBottom="328dp"
-        android:text="Edit"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="300dp"
+        android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/activity_form_textview_editTextName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="167dp"
-        android:layout_marginRight="167dp"
-        android:layout_marginBottom="256dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="200dp"
         android:text="Hello World"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

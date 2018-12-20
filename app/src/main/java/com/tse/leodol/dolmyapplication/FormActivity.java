@@ -10,12 +10,15 @@ import android.widget.Toast;
 public class FormActivity extends AppCompatActivity {
 
     private Button saveButton;
+    private Button submitButton;
     private EditText editTextName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
+
+        initViews();
     }
 
     private void initViews(){
